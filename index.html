@@ -57,12 +57,19 @@
             <h1>Reported posts</h1>
         </div>
     </main>
-    <section>
-        <h4>1. What does javascript event loop do?</h4>
+    <section class="container">
+        <h2 class="my-4">QnA Section</h2>
+        <h4 class="">1. What does javascript event loop do?</h4>
         <p>==> Javascript event loop makes easier the browser APIs separate tread. At first, it starts with the call
             stack functions. It checks the call stack. If the call stack is empty, it takes a function on the
             event queue and pushes it to the call stack. Then it runs from the call stack. If the call stack is not
             empty, it processes the current function call.</p>
+        <h4>2. What is the difference between local storage and session storage?</h4>
+        <p>==> The difference between local storage and session storage is the time of existence of the data. In the
+            session storage, the data removes when the session end. But in the case of local storage, the data doesn't
+            clear when the session end. When we close a page of the browser, a session end, and all the data of session
+            storage is expired. In the local storage, even when we close the browser, the data doesn't expire. It is
+            always in there.</p>
     </section>
     <footer></footer>
 
